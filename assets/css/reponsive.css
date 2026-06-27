@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+
+    #nav .menu,
+    #nav .sign_up {
+        display: none;
+    }
+
+    #nav .mobile_menu {
+        display: block;
+    }
+
+    #nav {
+        padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+
+
+    #hero {
+        padding: 30px;
+    }
+
+    #hero .content,
+    #hero .img {
+        width: 100%;
+
+    }
+
+    #hero .content h2 {
+        font-size: 37px;
+    }
+
+    #hero .content p {
+        font-size: 14px;
+    }
+
+    #hero .img {
+        text-align: center;
+    }
+
+    #hero .img img {
+        width: 80%;
+    }
+
+
+
+
+    #community .card {
+        width: 100%;
+    }
+
+    #community .heading {
+        padding: 10px;
+    }
+    #community .heading h4 {
+        font-size: 25px;
+    }
+}
